@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+    
+}
+
+.container {
+    width: 1100px;
+    min-height: 650px;
+    margin: 20px auto;
+    border: 1px solid #679898;
+    
+}
+
+Header {
+    width: 100%;
+}
+
+.header-wrapper {
+    width: 100%;
+    background:#d1e0e0;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #679898;
+}
+
+.header-wrapper h2 {
+    margin: 20px 100px;
+}
+
+.header-wrapper ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-wrapper li {
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    height: fit-content;
+    line-height: 4;
+    width: 30%;
+    border-left: 2px solid navajowhite;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-wrapper li:hover{
+    color:#d1e0e0 ;
+    background: #000;
+}
+
+.sidebar-wrapper{
+    width: 20%;
+    float: left; 
+    background: #e0ebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sidebar-wrapper h3{
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin: auto;
+   text-transform: capitalize;
+   border: 1px solid #679898;
+   width: 100%;
+}
+
+.sidebar-wrapper li{
+    list-style-type: none;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 18px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #679898;
+    background: #eff5f5;
+    cursor: pointer;
+}
+
+.categories{
+    height:100%;
+}
+
+.active {
+    color: navajowhite;
+    background: rgba(1, 16, 31, 0.842) !important;
+}
+
+.sidebar-wrapper li:hover {
+    color: navajowhite;
+    background: rgba(1, 16, 31, 0.842);
+}
+
+.items-list{
+        width:50%;
+        margin-left: 300px;
+}
+
+.items-li {
+            margin-top:10px;
+            text-align: left;
+            background: dark-grey;
+            color: black;
+            padding:20px 20px;
+            transition: .2s;
+            font-size:16px;
+            font-weight:600;
+            list-style-type: none;
+            margin-left: 20px;
+            text-transform: capitalize;
+            border-bottom: 1px solid black;
+}
+
+.items-li:hover{
+    color: navajowhite;
+    background: #000;
+}
+
+.items-li span {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.delete-span {
+    float:right;
+}
+
+.ul-categories{
+    margin-left: 350px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.cat-li{
+    margin-left: 20px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.add{
+    margin-left: 500px;
+    margin-top: 100px;
+   
+}
+
